@@ -1,0 +1,48 @@
+
+
+.main-body {
+    padding: 100px;
+    height: 1600px;
+    margin-top: 50px;
+}
+
+.media-content {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    
+}
+
+.media-img {
+    width: 204px;
+}
+
+.media-container-row {
+    display: inline;
+    width: 1200px;
+    height: 254px;
+
+    
+}
+
+.nagy-text {
+  font-size: 60px;
+  text-align: center;
+}
+
+.nagy-kep {
+  text-align: center;
+  margin: auto;
+  width: 768px;
+  border: 1px solid black;
+  height: 538px;
+}
+
+.nagy-kep img {
+  text-align: center;
+}
+
+body {
+  background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
+}
