@@ -44,7 +44,7 @@
 }
 
 .logo {
-    width: 60px;
+    width: 180px;
     padding-left: 20px;
     padding-right: 0px;
     align-items: center;
@@ -52,7 +52,7 @@
 }
 
 .logo img {
-    height: 50px;
+    width: 200px;
     margin-bottom: 0px;
 }
 
@@ -82,5 +82,7 @@
         margin: auto;
         padding: auto;
     }
-      
+      .logo {
+        margin-top: 8px;
+      }
   }
