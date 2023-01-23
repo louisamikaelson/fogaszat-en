@@ -3,16 +3,18 @@
     display: block;
     text-align: center;
     margin-top: 150px;
+    width: 100%;
+    margin-bottom: 20px;
     
 }
 
 .main-content {
     border: 2px solid white;
-    width: 1160px;
+    width: 80%;
     padding: 20px;
     padding-bottom: 10px;
     padding-top: 50px;
-    height: 300px;
+    height: auto;
     margin: auto;
     text-align: center;
     display: block;
@@ -33,7 +35,7 @@ p {
 
 
 .second {
-    height: 50px;
+    height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -52,15 +54,15 @@ p {
     text-align: left;
     background-color: rgb(188, 233, 239);
     margin: auto;
-    width: 1165px;
+    width: 80%;
     padding: 20px;
     
 }
 
 .video-row {
-    height: 300px;
+    height: auto;
     margin-bottom: 0px;
-    width: 1200px;
+    width: 83%;
     background-color: rgb(209, 235, 233);
     margin-left: auto;
     margin-right: auto;
@@ -78,12 +80,13 @@ p {
 
 .smart-guide {
     border-top: 1px solid white;
-    width: 1165px;
+    width: 80%;
     padding: 20px;
-    height: 2500px;
+    height: auto;
     margin: auto;
     text-align: center;
     display: block;
+    margin-top: 20px;
     
     background-color: aliceblue;
     background-image: linear-gradient(to right, rgb(181, 231, 237), rgb(195, 234, 236));
@@ -160,4 +163,13 @@ li {
 
 body {
     background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
+    line-height: 1.5;
+}
+
+
+
+@media (max-width: 920px){
+    body {
+        padding-top: 150px;
+    }
 }

@@ -2,7 +2,7 @@
 
 .main-body {
     padding: 100px;
-    height: 1600px;
+    height: auto;
     margin-top: 50px;
 }
 
@@ -20,7 +20,7 @@
 
 .media-container-row {
     display: inline;
-    width: 1200px;
+    width: 80%;
     height: 254px;
 
     
@@ -34,13 +34,14 @@
 .nagy-kep {
   text-align: center;
   margin: auto;
-  width: 768px;
-  border: 1px solid black;
-  height: 538px;
+  width: 60%;
+  height: auto;
+
 }
 
 .nagy-kep img {
   text-align: center;
+  width: 100%;
 }
 
 body {

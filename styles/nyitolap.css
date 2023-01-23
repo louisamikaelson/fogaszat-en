@@ -2,23 +2,24 @@
 
 .main-body {
     background-color: white;
-    height: 800px;
-    margin-left: 0px;
-    margin-right: 0px;
+    width: 100%;
+
 }
 
 
 video {
-    width: 1420px;
     border: 2px solid white;
+    height: 100%;
+    width: 100%;
 
 }
 
 
 
 body {
-    width: 1425px;
-    height: 800px;
+
+    width: 100%;
+    padding-top: 120px;
     background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
 }
 
@@ -36,3 +37,8 @@ body {
 }
 
 
+@media (max-width: 920px){
+    body {
+        padding-top: 265px;
+    }
+}

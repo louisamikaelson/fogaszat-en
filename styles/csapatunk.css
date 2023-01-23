@@ -1,6 +1,6 @@
 
 .main-body {
-    height: 6300px;
+    height: auto;
     background-color: rgb(91, 190, 195);
     background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
 
@@ -9,7 +9,7 @@
 .media-body {
     text-align: center;
     margin: auto;
-    width: 1200px;
+    width: auto;
     
 }
 
@@ -18,9 +18,10 @@
     height: 300px;
     text-align: center;
     border: 2px solid white;
-    margin-left: 450px;
-    margin-top: 100px;
+    
+    margin-top: 20px;
     background-color: white;
+    margin: 20px auto 0px auto;
   
 
 }

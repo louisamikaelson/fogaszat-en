@@ -2,7 +2,7 @@
 
 .main-body {
     
-    width: 1000px;
+    width: 70%;
     padding: 10px 100px 100px 100px;
     background-color: rgb(214, 243, 243);
     margin: auto;
@@ -17,8 +17,6 @@
     font-size: 48px;
     text-align: center;
 
-
-  
 
 
 }
@@ -35,7 +33,7 @@
 }
 
 .media-content-cim {
-    width: 500px;
+    width: 100%;
     font-size: 20px;
     margin-left: 15px;
 }
@@ -231,7 +229,7 @@
 
 
   #tomes-kep {
-    width: 400px;
+    width: 90%;
     border-radius: 50%;
 }
 
@@ -240,15 +238,17 @@
 }
 
 .kozep-kep img {
-    width: 660px;
+    width: 90%;
 }
 
 #nagy-kep {
-    width: 900px;
+    width: 100%;
+    text-align: center;
+
 }
 
 #nagy-kep img {
-    padding-left: 100px;
+  text-align: center;
 }
 
 .szajseb-lista {
@@ -266,7 +266,16 @@ body {
     padding-top: 120px;
   }
 
+  .rez-kep {
+    text-align: center;
+  }
+
   .resection-img {
-    width: 600px;
-    margin-left: 200px;
+    width: 60%;
+    text-align: center;
+
+  }
+
+  #kepecske {
+    width: 70%;
   }

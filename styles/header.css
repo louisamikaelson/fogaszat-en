@@ -19,10 +19,9 @@
 .nav-row {
     display: flex;
     list-style-type: none;
-    justify-content: space-between;
     align-items: center;
-    margin-left: 10px;
-    margin-right: 20px;
+    margin-left: 30px;
+    margin-right: 10px;
     flex-wrap: wrap;
     padding-left: 15px;
 }
@@ -34,7 +33,7 @@
     text-decoration-color: transparent;
     color: white;
     font-size: 25px;
-    margin-right: 10px;
+    margin-right: 20px;
     line-height: 1.6;
     transition: 0.25s;
 }
@@ -74,3 +73,14 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+@media (max-width: 920px) {
+    .header-box {
+        height: auto;
+        flex-direction: column;
+        margin: auto;
+        padding: auto;
+    }
+      
+  }
