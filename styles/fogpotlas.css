@@ -26,23 +26,25 @@
 }
 
 .media-container-row {
-    display: inline;
+    display: block;
     width: 100%;
-    height: 254px;
+    height: auto;
 
 }
 
 .media-content {
   display: inline;
-  width: 50%;
+  width: 100%;
 
+}
 
-
+#ppp {
+  font-size: 20px;
 }
 
 .media-content-cim {
   font-size: 20px;
-  width: 60%;
+  width: 40%;
   display: inline-block;
 
 
@@ -53,6 +55,7 @@
   display: inline-block;
 
 }
+
 
 
 .video-row {
@@ -96,8 +99,9 @@
 }
 
 #indent-content-cim {
-    width: 100%;
+    width: 40%;
     padding: 10px;
+    display: inline-block;
 }
 
 #kisebb-bek {
@@ -111,11 +115,12 @@
 }
 
 .in1a-kep {
-    width: 314px;
+    width: 25%;
+    display: inline-block;
 }
 
 .sima-p {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -170,7 +175,7 @@
   
   .column {
     display: inline-block;
-    width: 460px;
+    width: 40%;
     margin: 10px;
 
     
