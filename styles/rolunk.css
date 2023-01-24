@@ -38,6 +38,7 @@ p {
     height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+
 }
 
 .second-text {
@@ -56,6 +57,7 @@ p {
     margin: auto;
     width: 80%;
     padding: 20px;
+    border: 2px solid white;
     
 }
 
@@ -166,6 +168,24 @@ body {
     line-height: 1.5;
 }
 
+
+
+.reviews {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    background-color:  rgb(209, 235, 233);
+    padding: 20px;
+    
+}
+.reviews p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#bigger-p {
+    font-size: 35px;
+}
 
 
 @media (max-width: 920px){
