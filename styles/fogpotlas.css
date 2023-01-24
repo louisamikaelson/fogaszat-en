@@ -147,7 +147,7 @@
 
 #sima-szoveg {
     font-weight: 400;
-    width: 600px;
+    width: 60%;
     margin-left: 20px;
 }
 
@@ -312,6 +312,100 @@
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+
+
+  .smart-guide {
+    border-top: 1px solid white;
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    display: block;
+    
+    background-color: aliceblue;
+    background-image: linear-gradient(to right, rgb(181, 231, 237), rgb(195, 234, 236));
+}
+
+.smart-guide-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.smart-guide-title p {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.smart-guide-video {
+    margin-top: 5px;
+}
+
+.text1-main {
+    font-size: 30px;
+}
+
+.smart-guide-text1 {
+  font-size: 20px;
+}
+
+.smart-guide-text2 {
+    text-align: left;
+    height: auto;
+    font-size: 20px;
+}
+
+.smart-guide-elonyok {
+    height: auto;
+}
+
+.bold-p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+
+li {
+    font-size: 23px;
+
+}
+
+.implant-pontok {
+    text-align: left;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.implantacio-folyamat {
+    height: auto;
+
+}
+
+.kulon-p {
+    font-size: 27px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.monitor-kep {
+    width: 300px;
+    display: inline-block;
+}
+
+.implantacio-kep {
+    display: inline-block;
+
+}
+
+.kozep {
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+
+
+
 
   body {
     background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));

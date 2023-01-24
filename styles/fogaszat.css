@@ -44,8 +44,8 @@
 
 .media-container-row {
     display: inline;
-    width: 1200px;
-    height: 254px;
+    width: 100%;
+    height: auto;
 
 }
 
@@ -63,7 +63,7 @@
 }
 
 #cur-kep {
-    width: 400px;
+    width: 90%;
 }
 
 
@@ -238,7 +238,7 @@
 }
 
 .kozep-kep img {
-    width: 90%;
+    width: 80%;
 }
 
 #nagy-kep {
@@ -278,4 +278,10 @@ body {
 
   #kepecske {
     width: 70%;
+  }
+
+  @media (max-width: 860px) {
+    .modal-content {
+      margin-top: 15%;
+    }
   }
