@@ -101,9 +101,8 @@ body {
     background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
 }
 
-@media (max-width: 920px) {
-    .main-body {
-        padding-top: 140px;
+@media (max-width: 920px){
+    body {
+        padding-top: 320px;
     }
-      
-  }
+}

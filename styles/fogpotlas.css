@@ -418,4 +418,8 @@ li {
     line-height: 1.5;
   }
 
- 
+  @media (max-width: 920px){
+    body {
+        padding-top: 320px;
+    }
+}

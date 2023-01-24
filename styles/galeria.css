@@ -177,4 +177,8 @@ body {
     .modal-content {
       margin-top: 15%;
     }
+    body {
+      padding-top: 320px;
   }
+  }
+  
