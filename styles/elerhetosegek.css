@@ -22,11 +22,12 @@ body {
     padding: 15px;
     font-size: 20px;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 #michael-kep {
-    width: 20%;
-    height: 20%;
+    width: 15%;
+    
     border: 2px solid black;
 
 }
@@ -39,7 +40,7 @@ body {
 }
 
 #angi-kep {
-    width: 30%;
+    width: 25%;
     border: 2px solid black;
 }
 

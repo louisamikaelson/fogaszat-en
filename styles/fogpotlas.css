@@ -315,7 +315,7 @@
 
 
   .smart-guide {
-    border-top: 1px solid white;
+    border: 2px solid white;
     width: 100%;
     padding: 20px;
     height: auto;
