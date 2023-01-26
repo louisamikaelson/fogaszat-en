@@ -6,6 +6,7 @@
     padding: 10px 100px 100px 100px;
     background-color: rgb(214, 243, 243);
     margin: auto;
+    box-shadow: 2px 3px 6px rgb(155, 153, 153);
 }
 
 .main-body li{
@@ -263,7 +264,7 @@
 body {
     background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
     background-color: white;
-    padding-top: 120px;
+    padding-top: 140px;
   }
 
   .rez-kep {
