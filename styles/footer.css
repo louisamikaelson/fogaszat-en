@@ -66,6 +66,7 @@
 @media (max-width: 920px) {
     .footer-box {
         justify-content: center;
+        padding-top: 5px;
 
     }
     .icons-copyright {
@@ -73,6 +74,15 @@
     }
     .address {
         width: auto;
+        font-size: 18px;
     }
+    .bottom-icons a{
+        font-size: 27px;
+    }
+    .copyright{
+        font-size: 18px;
+    }
+    
+
       
   }

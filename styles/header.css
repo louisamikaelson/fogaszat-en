@@ -85,4 +85,17 @@
       .logo {
         margin-top: 8px;
       }
+      .nav-row li a {
+        font-size: 18px;
+      }
+      .logo {
+        width: 150px;
+      }
+      .logo img{
+        width: 150px;
+      }
+      .nav-row {
+        margin-bottom: 5px;
+    }
+
   }
