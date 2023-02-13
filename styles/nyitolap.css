@@ -2,7 +2,7 @@
 
 .main-body {
     background-color: white;
-    width: 100%;
+    width: 99%;
 
 }
 
@@ -13,6 +13,7 @@ video {
     width: 100%;
 
 }
+
 
 
 
@@ -39,6 +40,14 @@ body {
 
 @media (max-width: 920px){
     body {
-        padding-top: 340px;
+        padding-top: 140px;
+    }
+    .main-body video{
+        width: 99%;
+    }
+}
+@media (max-width: 612px){
+    body {
+        padding-top: 170px;
     }
 }

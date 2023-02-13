@@ -4,6 +4,7 @@
     padding: 100px;
     height: auto;
     margin-top: 50px;
+    width: 90%;
 }
 
 .media-content {
@@ -15,13 +16,14 @@
 }
 
 .media-img {
-    width: 204px;
+    width: 100%;
 }
 
 .media-container-row {
     display: inline;
     width: 80%;
     height: 254px;
+
 
     
 }
@@ -52,7 +54,22 @@ body {
 }
 
 @media (max-width: 920px){
-  body {
-      padding-top: 320px;
+
+  .main-body{
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+
+
+}
+
+
+
+
+
+@media (max-width: 590px){
+  .main-body{
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }

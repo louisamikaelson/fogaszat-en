@@ -71,9 +71,11 @@
     }
     .icons-copyright {
         margin: auto;
+        
+
     }
     .address {
-        width: auto;
+        width: 30%;
         font-size: 18px;
     }
     .bottom-icons a{
@@ -83,6 +85,12 @@
         font-size: 18px;
     }
     
+   
+  }
 
-      
+  @media (max-width: 789px){
+    .address{
+        width: auto;
+    }
+
   }

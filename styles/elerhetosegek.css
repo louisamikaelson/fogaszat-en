@@ -6,7 +6,7 @@
 
 body {
     background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
-    padding-top: 120px;
+    padding-top: 100px;
 }
 
 .card {
@@ -65,7 +65,8 @@ body {
 
 @media (max-width: 920px) {
     .main-body {
-        padding-top: 320px;
+        padding-top: 70px;
+        width: 100%;
     }
       
   }

@@ -51,7 +51,7 @@
 }
 
 .media-content video{
-    width: 450px;
+    width: auto;
 }
 
 .hosszu-p {
@@ -289,9 +289,33 @@ body {
     .modal-content {
       margin-top: 15%;
     }
-    body {
-      padding-top: 320px;
   }
+  @media (max-width: 920px) {
+    body {
+      padding-top: 140px;
+  }
+  .main-body{
+    padding-top: 30px;
+    margin-top: 20px;
+    width: auto;
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+  .cim{
+    margin-top: 50px;
+  }
+
+  }
+  @media (max-width: 611px){
+    .main-body{
+      margin-top: 30px;
+    }
+    #fogf-kep{
+      width: 70%;
+    }
+    
+
+
   }
 
 

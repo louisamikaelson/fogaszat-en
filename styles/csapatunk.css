@@ -107,6 +107,11 @@ body {
 
 @media (max-width: 920px){
     body {
-        padding-top: 320px;
+        padding-top: 130px;
+    }
+}
+@media (max-width: 612px){
+    body {
+        padding-top: 160px;
     }
 }

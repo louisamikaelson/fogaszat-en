@@ -195,6 +195,31 @@ body {
 
 @media (max-width: 920px){
     body {
-        padding-top: 320px;
+        padding-top: 140px;
+    }
+    .main-content{
+        width: 90%;
+    }
+    .video-row {
+        width: 95%;
+    }
+    .szedacio-text {
+        width: 90%;
+    }
+    .reviews {
+        width: 90%;
+    }
+    .main-content{
+        padding-top: 30px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 612px){
+    body {
+        padding-top: 170px;
+    }
+    .main-content{
+        padding-top: 30px;
+        margin-top: 20px;
     }
 }

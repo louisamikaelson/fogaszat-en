@@ -48,10 +48,16 @@ iframe {
 
 @media (max-width: 920px){
     body {
-        padding-top: 320px;
+        padding-top: 140px;
     }
 }
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 611px){
+    body {
+        padding-top: 160px;
+    }
 }

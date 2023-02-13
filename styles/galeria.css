@@ -36,9 +36,6 @@ body {
     display: inline-block;
     width: 450px;
 
-
-
-   
     
   }
 
@@ -172,13 +169,54 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
+  @media (max-width: 1408px){
+    .column{
+      width: 31%;
+    }
+  }
+  @media (max-width: 1240px){
+    #art-kep{
+      max-height: 214px;
+    }
+  }
 
+  @media (max-width: 1035px){
+    #art-kep{
+      max-height: 256px;
+    }
+  }
+  
+  @media (max-width: 920px){
+    body{
+      padding-top: 20px;
+    }
+  }
   @media (max-width: 860px) {
     .modal-content {
       margin-top: 15%;
     }
-    body {
-      padding-top: 320px;
+
   }
+  
+  @media (max-width: 814px){
+    .column{
+      width: 45%;
+    }
+    #art-kep{
+      max-height: 242px;
+    }
   }
+  @media (max-width: 666px){
+    #art-kep{
+      max-height: 200px;
+    }
+  }
+  @media (max-width: 609px){
+    body{
+      padding-top: 55px;
+    }
+  
+  }
+  
+  
   
