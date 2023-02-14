@@ -32,9 +32,10 @@ body {
 
 
 .e-seta {
-    width: 100%;
+    width: 99%;
     height:100vh;
     margin-bottom: 30px;
+    margin: auto;
 
 
 }
@@ -59,5 +60,11 @@ iframe {
 @media (max-width: 611px){
     body {
         padding-top: 160px;
+    }
+}
+
+@media (max-width: 550px){
+    body {
+        padding-top: 185px;
     }
 }

@@ -27,7 +27,6 @@ body {
 
 #michael-kep {
     width: 15%;
-    
     border: 2px solid black;
 
 }
@@ -66,7 +65,21 @@ body {
 @media (max-width: 920px) {
     .main-body {
         padding-top: 70px;
-        width: 100%;
+        width: auto;
+    }
+    #michael-kep {
+        width: 25%;
+    }
+    #angi-kep {
+        width: 35%;
     }
       
+  }
+  @media (max-width: 635px){
+    #michael-kep {
+        width: 35%;
+    }
+    #angi-kep {
+        width: 45%;
+    }
   }

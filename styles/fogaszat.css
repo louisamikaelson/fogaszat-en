@@ -17,6 +17,7 @@
     margin-top: 100px;
     font-size: 48px;
     text-align: center;
+    width: 100%;
 
 
 
@@ -25,6 +26,8 @@
 .cim-text {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    width: 100%;
+
 }
 
 
@@ -306,16 +309,56 @@ body {
   }
 
   }
+
+  @media (max-width: 750px){
+    .kozep-kep img {
+      width: 90%;
+    }
+  }
+
+
   @media (max-width: 611px){
     .main-body{
       margin-top: 30px;
     }
     #fogf-kep{
-      width: 70%;
+      width: 80%;
     }
-    
+    .kozep-kep img {
+      width: 100%;
+    }
 
+  }
 
+  @media (max-width: 560px){
+    .media-content video{
+      width: 100%;
+  }
+  }
+
+  @media (max-width: 400px){
+    .column {
+      width: 100%;
+    }
+    .cim {
+      font-size: 30px;
+  }
+
+  @media (max-width: 380px){
+    .main-body{
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+
+  }
+  @media (max-width: 350px){
+    .kozep-kep img {
+      width: 110%;
+    }
+    .main-body{
+      padding-top: 5px;
+    }
   }
 
 

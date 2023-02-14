@@ -4,7 +4,7 @@
     padding: 100px;
     height: auto;
     margin-top: 50px;
-    width: 90%;
+    width: auto;
 }
 
 .media-content {
@@ -23,8 +23,6 @@
     display: inline;
     width: 80%;
     height: 254px;
-
-
     
 }
 
@@ -72,4 +70,17 @@ body {
     padding-right: 30px;
     padding-left: 30px;
   }
+}
+
+@media (max-width: 565px){
+  .media-img{
+    width: 90%;
+
+  }
+  .media-content {
+    width: 40%;
+
+ 
+    
+}
 }

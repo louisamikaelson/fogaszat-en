@@ -99,3 +99,17 @@
     }
 
   }
+
+  @media (max-width: 330px){
+    .nav-row li a {
+      font-size: 13px;
+    }
+    .logo {
+      width: 130px;
+    }
+    .logo img{
+      width: 130px;
+    }
+
+
+  }

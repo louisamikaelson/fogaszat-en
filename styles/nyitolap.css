@@ -2,15 +2,16 @@
 
 .main-body {
     background-color: white;
-    width: 99%;
+    background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
+    width: 100%;
 
 }
 
 
 video {
-    border: 2px solid white;
+    border: 4px solid white;
     height: 100%;
-    width: 100%;
+    width: 99%;
 
 }
 
@@ -19,7 +20,7 @@ video {
 
 body {
 
-    width: 100%;
+
     padding-top: 120px;
     background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
 }
@@ -42,10 +43,9 @@ body {
     body {
         padding-top: 140px;
     }
-    .main-body video{
-        width: 99%;
-    }
 }
+
+
 @media (max-width: 612px){
     body {
         padding-top: 170px;
