@@ -166,6 +166,7 @@ body {
     background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
     line-height: 1.5;
     padding-top: 120px;
+    margin: 0;
 }
 
 

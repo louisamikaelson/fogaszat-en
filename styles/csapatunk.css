@@ -99,6 +99,7 @@
 body {
     padding-top: 120px;
     background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
+    margin: 0;
 }
 
 * {

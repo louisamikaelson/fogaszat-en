@@ -49,6 +49,7 @@
 
 body {
   background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
+  margin: 0;
 }
 
 @media (max-width: 920px){

@@ -412,6 +412,7 @@ li {
     background-image: linear-gradient(to right, rgb(52, 154, 168), rgb(153, 207, 210));
     background-color: white;
     padding-top: 140px;
+    margin: 0;
   }
 
   * {
