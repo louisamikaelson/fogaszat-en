@@ -16,7 +16,9 @@ video {
 }
 
 
-
+.main-body img {
+    display: none;
+}
 
 body {
 
@@ -51,3 +53,26 @@ body {
         padding-top: 170px;
     }
 }
+
+@media (max-width: 500px){
+    
+    .main-body img{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 467px){
+    body{
+        padding-top: 200px;
+    }
+}
+
+@media (max-width: 346px){
+    body{
+        padding-top: 160px;
+    }
+}
+
+

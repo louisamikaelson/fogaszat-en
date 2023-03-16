@@ -84,3 +84,27 @@ body {
         width: 45%;
     }
   }
+
+  @media (max-width: 414px){
+    .main-body{
+        padding: 0;
+    }
+    body{
+        margin-top: 100px;
+    }
+  }
+
+  @media (max-width: 360px){
+    .jobb p{
+        font-size: 17px;
+    }
+  }
+
+  @media (max-width: 340px){
+    .jobb p{
+        font-size: 15px;
+    }
+    .bal {
+        font-size: 17px;
+    }
+  }

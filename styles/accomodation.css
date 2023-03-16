@@ -68,3 +68,22 @@ iframe {
         padding-top: 185px;
     }
 }
+
+@media (max-width: 376px){
+    .info-text{
+        font-size: 24px;
+    }
+    body {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 345px){
+    .info-text{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    body {
+        margin-top: 0px;
+    }
+}

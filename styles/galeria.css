@@ -217,6 +217,42 @@ body {
     }
   
   }
+
+  @media (max-width: 510px){
+    #art-kep{
+      max-height: 147px;
+    }
+  }
+
+  @media (max-width: 484px){
+    body {
+      margin-top: 50px;
+    }
+  }
+
+  @media (max-width: 375px){
+    .column {
+      width: 44%;
+    }
+    #art-kep{
+      max-height: 105px;
+    }
+  }
+
+
+  @media (max-width: 347px){
+    body {
+      margin-top: 10px;
+    }
+
+  }
+
+  @media (max-width: 330px){
+    .column {
+      width: 43%;
+    }
+
+  }
   
   
   
