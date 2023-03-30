@@ -75,6 +75,8 @@
 }
 
 
+
+
 @media (max-width: 920px) {
     .header-box {
         height: auto;
@@ -96,6 +98,7 @@
       }
       .nav-row {
         margin-bottom: 5px;
+;
     }
 
   }

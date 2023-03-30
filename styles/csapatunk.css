@@ -74,7 +74,7 @@
     margin-top: 20px;
     background-color: white;
     display: inline-block;
-    margin-right: 20px;
+
 }
 
 .orvos-kep {
@@ -114,5 +114,19 @@ body {
 @media (max-width: 612px){
     body {
         padding-top: 160px;
+    }
+}
+
+@media (max-width: 330px){
+    .orvos {
+        width: 280px;
+        height: 280px;
+        
+    }
+    .job-title{
+        font-size: 45px;
+    }
+    .orvos-nev-text{
+        font-size: 18px;
     }
 }
