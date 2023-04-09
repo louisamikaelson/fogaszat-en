@@ -15,7 +15,7 @@
 
 .cim {
     margin-top: 100px;
-    font-size: 48px;
+    font-size: 34px;
     text-align: center;
     width: 100%;
 
@@ -27,6 +27,7 @@
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     width: 100%;
+    font-weight: normal;
 
 }
 
@@ -39,7 +40,12 @@
 .media-content-cim {
     width: 100%;
     font-size: 20px;
-    margin-left: 15px;
+
+    margin: 0;
+}
+
+h2{
+  margin-bottom: 0;
 }
 
 .media-img {

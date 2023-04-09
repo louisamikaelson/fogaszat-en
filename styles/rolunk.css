@@ -184,6 +184,11 @@ body {
     line-height: 1.5;
 }
 
+h1 {
+    font-size: 35px;
+    font-weight: normal;
+}
+
 #bigger-p {
     font-size: 35px;
 }

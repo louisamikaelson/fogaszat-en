@@ -34,9 +34,8 @@
 
 .job-title {
     font-size: 55px;
-
+    font-weight: normal;
     color: white;
-    height: 40px;
     margin-top: 80px;
     
 }
