@@ -61,11 +61,20 @@ body {
         width: 80%;
         margin: auto;
     }
+    video{
+        width: 98%;
+    }
 }
 
 @media (max-width: 467px){
     body{
         padding-top: 200px;
+    }
+}
+
+@media (max-width: 400px){
+    video{
+        width: 97%;
     }
 }
 

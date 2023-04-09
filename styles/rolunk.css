@@ -72,10 +72,9 @@ p {
 }
 
 .video1,
-.video2,
-.video3 {
+.video2{
     display: inline;
-    width: 100px;
+    width: 100%;
     
 }
 
@@ -199,16 +198,16 @@ body {
         padding-top: 140px;
     }
     .main-content{
-        width: 90%;
+        width: 85%;
     }
     .video-row {
         width: 95%;
     }
     .szedacio-text {
-        width: 90%;
+        width: 85%;
     }
     .reviews {
-        width: 90%;
+        width: 85%;
     }
     .main-content{
         padding-top: 30px;
@@ -222,5 +221,23 @@ body {
     .main-content{
         padding-top: 30px;
         margin-top: 20px;
+    }
+}
+
+@media (max-width: 360px){
+    video{
+        width: 95%;
+    }
+}
+
+@media (max-width: 350px){
+    .szedacio-text {
+        width: 82%;
+    }
+    .reviews {
+        width: 82%;
+    }
+    .main-content{
+        width: 82%;
     }
 }

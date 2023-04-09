@@ -10,6 +10,7 @@
     position: fixed;
     border-bottom: 1px solid white;
     background-attachment: scroll;
+    transition: transform 0.2s;
 
     
     
@@ -74,7 +75,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+.nav-hidden{
+  transform: translateY(-350px);
+  box-shadow: none;
+}
 
 
 @media (max-width: 920px) {

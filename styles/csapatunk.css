@@ -92,7 +92,7 @@
 }
 
 .big-pic img {
-    width: 100%;
+    width: 99%;
     border: 2px solid white;
 }
 
@@ -128,5 +128,8 @@ body {
     }
     .orvos-nev-text{
         font-size: 18px;
+    }
+    .big-pic img{
+        width: 98%;
     }
 }
