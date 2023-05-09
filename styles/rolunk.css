@@ -6,6 +6,12 @@
     
 }
 
+#main-pic{
+    width: 100%;
+
+}
+
+
 .main-content {
     border: 2px solid white;
     width: 80%;
@@ -218,6 +224,10 @@ h1 {
         padding-top: 30px;
         margin-top: 20px;
     }
+
+    #main-pic{
+        margin-top: 60px;
+    }
 }
 @media (max-width: 612px){
     body {
@@ -227,12 +237,20 @@ h1 {
         padding-top: 30px;
         margin-top: 20px;
     }
+
+    #main-pic{
+        margin-bottom: -20px;
+    }
+
 }
+
+
 
 @media (max-width: 360px){
     video{
         width: 95%;
     }
+
 }
 
 @media (max-width: 350px){
@@ -245,4 +263,11 @@ h1 {
     .main-content{
         width: 82%;
     }
+    #main-pic{
+        margin-top: 50px;
+    }
 }
+
+
+
+
