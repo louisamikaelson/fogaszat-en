@@ -32,6 +32,10 @@ body {
 
 }
 
+#fintan-kep {
+    width: 25%;
+}
+
 
 .bal p {
 
@@ -74,6 +78,10 @@ body {
     #angi-kep {
         width: 35%;
     }
+
+    #fintan-kep {
+        width: 35%;
+    }
       
   }
   @media (max-width: 635px){
@@ -81,6 +89,9 @@ body {
         width: 35%;
     }
     #angi-kep {
+        width: 45%;
+    }
+    #fintan-kep {
         width: 45%;
     }
   }
