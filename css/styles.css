@@ -514,7 +514,6 @@ body{
 /*-- -------------------------- -->
 <---          Banner            -->
 <--- -------------------------- -*/
-
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
     #banner-712 {
@@ -522,6 +521,8 @@ body{
         padding: clamp(10.9375rem, 10vw, 12.5rem) 1rem 6.25rem;
         position: relative;
         z-index: 1;
+        padding-top: 6em;
+        padding-bottom: 6em;
     }
     #banner-712 .cs-container {
         text-align: center;
@@ -605,6 +606,13 @@ body{
         /* Makes img tag act as a background image */
         object-fit: cover;
     }
+}
+
+@media only screen and (max-width: 650px){
+  #banner-712{
+    padding-bottom: 4.5em;
+    padding-top: 4.5em;
+  }
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
