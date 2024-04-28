@@ -31,7 +31,7 @@
 
 .media-content{
     flex-basis: 100%;
-    padding-left: 1rem!important;
+    padding-left: 1rem;
     padding-right: 1rem!important;
     padding-bottom: .5rem!important;
     padding-top: .5rem!important;
@@ -41,6 +41,12 @@
     margin-left: 1em;
     text-align: left;
 
+}
+
+@media only screen and (min-width: 1900px){
+    .media-content{
+        padding-left: 2em;
+    }
 }
 
 .media-content p{

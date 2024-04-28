@@ -544,7 +544,8 @@ body{
         margin: auto;
         color: var(--bodyTextColorWhite);
         position: relative;
-        padding-top: .9em;
+        padding-top: .5em;
+        padding-bottom: .5em;
   
     }
 
