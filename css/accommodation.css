@@ -32,6 +32,17 @@
     width: 30%;
 }
 
+@media only screen and (max-width: 800px){
+    .lightb2 a img{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .lightb2 a img{
+        width: 45%;
+    }
+}
 .e-seta{
     width: 80%;
     height: 100vh;

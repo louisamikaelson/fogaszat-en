@@ -103,29 +103,29 @@ body.lb-disable-scrolling {
   left: 0;
 }
 .lb-container{
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 800px){
   .lb-container{
-    margin-top: 10%;
+    margin-top: 20%;
   }
 }
 
 @media only screen and (max-width: 600px){
   .lb-container{
-    margin-top: 20%;
+    margin-top: 30%;
   }
 }
 @media only screen and (max-width: 500px){
   .lb-container{
-    margin-top: 40%;
+    margin-top: 50%;
   }
 }
 @media only screen and (max-width: 400px){
   .lb-container{
-    margin-top: 55%;
+    margin-top: 60%;
   }
 }
 

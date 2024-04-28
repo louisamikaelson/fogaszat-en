@@ -1060,11 +1060,7 @@ body.dark-mode .bone-grafting{
     }
   }
 
-  @media only screen and (max-width: 400px){
-    .list li{
-      font-size: .9em;
-    }
-  }
+
 
 
   @media only screen and (max-width: 780px){

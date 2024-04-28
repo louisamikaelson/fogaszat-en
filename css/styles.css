@@ -544,6 +544,7 @@ body{
         margin: auto;
         color: var(--bodyTextColorWhite);
         position: relative;
+        padding-top: .9em;
   
     }
 
@@ -746,9 +747,10 @@ body.dark-mode .lightb{
       list-style: none;
       margin: 0;
       color: white;
+      font-size: 1.2rem;
   }
   #cs-footer-274 .cs-header {
-      font-size: 1rem;
+      font-size: 1.2rem;
       line-height: 1.5em;
       font-weight: 700;
       /* 16px - 20px */
@@ -758,7 +760,7 @@ body.dark-mode .lightb{
       display: block;
   }
   #cs-footer-274 .cs-nav-link {
-      font-size: 1rem;
+      font-size: 1.2rem;
       text-decoration: none;
       line-height: 1.5em;
       color: white;
@@ -844,3 +846,9 @@ body.dark-mode .lightb{
 }
 
                               
+.copyright{
+  color: white;
+  margin-top: 1em;
+  text-align: center;
+  margin-bottom: -1em;
+}

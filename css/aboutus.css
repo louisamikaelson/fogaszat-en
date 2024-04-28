@@ -22,7 +22,7 @@
   .lightbox1 a img{
     width: 25%;
   }
-
+  
 
 
   /*-- -------------------------- -->
@@ -160,6 +160,18 @@
 @media only screen and (max-width: 780px){
     .lightbox1 a img{
         width: 30%;
+    }
+
+}
+@media only screen and (max-width: 600px){
+    .lightbox1 a img{
+        width: 40%;
+    }
+
+}
+@media only screen and (max-width: 500px){
+    .lightbox1 a img{
+        width: 45%;
     }
 
 }
