@@ -25,7 +25,11 @@
   body.dark-mode .cs-title,
   body.dark-mode .cs-text,
   body.dark-mode .cs-li {
-    color: var(--bodyTextColorWhite);
+    color: white;
+  }
+  body.dark-mode .text-center h1,
+  body.dark-mode .text-center p{
+    color: black;
   }
   body.dark-mode .light {
     display: none;
