@@ -256,11 +256,17 @@ button{
     color: white;
     width: 90%;
     height: 70px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 button:hover{
     cursor: pointer;
     background-color: rgb(46, 109, 117);
     transition: 0.3s;
+}
+
+@media only screen and (max-width: 350px){
+    button{
+        height: auto;
+    }
 }
